@@ -15,6 +15,15 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+  // MAP
+    
+  //var nuevoArreglo=[];  
+  //for(let i=0;i<array.length;i++){
+  //  nuevoArreglo.push(array[i][propiedad]);
+  //}
+  //con MAP
+  var nuevoArreglo = array.map(produ => produ[propiedad]);
+  return nuevoArreglo;
 }
 
 // No modifiques nada debajo de esta linea //

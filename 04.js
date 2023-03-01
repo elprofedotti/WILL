@@ -13,6 +13,14 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
+  var numString = num.toString().split("");
+
+  numString = numString.reverse();
+
+  // Unimos el arreglo de caracteres invertido en un string y lo convertimos a número
+  numString = parseInt(numString.join(""));
+
+  return num===numString;
 
 }
 

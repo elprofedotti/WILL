@@ -11,7 +11,16 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
+  /* var arr=[];
+  for(let i=0;i<array.length;i++){
+    if (Number.isInteger(array[i])){
+      arr.push(array[i]);
+    }
+  }
+  return arr; */
 
+  //otra opcion
+  return numeros = array.filter((elemento) => typeof elemento === "number");
 }
 
 // No modifiques nada debajo de esta linea //
